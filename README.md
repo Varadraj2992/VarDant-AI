@@ -183,6 +183,7 @@ This folder contains a Streamlit-based crop recommendation workflow with manual 
 ## 11. Author
 
 **Varad Bhandare**
+
 **Parth Garge**
 
 M.Sc. Data Science & Big Data Analytics
