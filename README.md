@@ -176,20 +176,13 @@ The manual app's input ranges are N/P/K: 0–500, temperature: 0–60 °C, humid
 
 The saved model and both encoders must come from the same training run. Replacing only one of these files may cause incorrect predictions or runtime errors. The displayed probability, when available, is the model's predicted probability for its most likely class; it is not a guarantee of accuracy in field conditions.
 
-## 10. Troubleshooting
-
-- **Missing or invalid model file:** run `git lfs pull` from the repository root and verify the `.pkl` files are actual binary assets.
-- **Firebase data is unavailable:** check the endpoint, network connectivity, database permissions, and whether the `sensor` object contains numeric `temperature` and `humidity` values.
-- **Sensor publisher cannot connect:** verify the configured COM port, baud rate, Arduino output format, and Firebase service-account file.
-- **Prediction fails:** confirm the model and encoders are present and were generated for the same feature order described above.
-
-## 11. Project Status
+## 10. Project Status
 
 This folder contains a Streamlit-based crop recommendation workflow with manual input and an optional Firebase sensor path. Model training and retraining are not performed by the Streamlit apps; the apps load the supplied serialized model and encoder files.
 
-## 12. Author
+## 11. Author
 
-**Varadraj Bhandare**
+**Varad Bhandare**
 
 M.Sc. Data Science & Big Data Analytics
 
@@ -202,10 +195,10 @@ Areas of interest:
 - Internet of Things (IoT)
 - Agricultural Technology
 
-## 13. License
+## 12. License
 
 No license has been specified for this project yet. Until a `LICENSE` file is added, reuse, modification, and redistribution are not explicitly granted.
 
-## 14. Disclaimer
+## 13. Disclaimer
 
 This project is intended for educational and demonstration purposes. Recommendations depend on the supplied data and trained model and should be validated against local soil tests, climate conditions, and advice from qualified agricultural professionals.
